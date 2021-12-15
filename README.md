@@ -1,3 +1,5 @@
+# CryptoView
+
 # React App that fetch API for cryptocurrency data, visualize it or search for specific ones.
 
 libraries used 
