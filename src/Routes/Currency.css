@@ -1,0 +1,44 @@
+.coinPage-Container {
+  margin: 5%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.infoPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  align-items: center;
+  align-self: center;
+  width: 500px;
+}
+
+.coinPage-RouteButton {
+  border: 2px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 14px;
+  width: 100px;
+}
+.coinPage-Data {
+  padding: 5px;
+}
+.coinPage-Row {
+  display: flex;
+}
+.coinPage-RowHeader {
+  color: #a0a0a0;
+}
+.coinPage-RowData {
+  padding-left: 25px;
+}
+a {
+  padding: 30px 0;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

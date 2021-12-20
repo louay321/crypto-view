@@ -70,7 +70,7 @@ export default function Home(){
                 })}
            </div>
 
-           <p className="foot">made with &#10084;&#65039; by weldomi</p>
+           <p className="foot">made with &#10084;&#65039; by /ouay</p>
         </div>
     )
 
