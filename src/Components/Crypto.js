@@ -14,11 +14,14 @@ export default function Coin(props){
                         <h1 className="coin-name">{props.coinName}</h1>
                         <p className="symbol">{props.coinSymbol}</p>
                         <p className="price">EUR {props.price.toFixed(2)}</p>
-                        {props.priceChange > 0 ?(
+                        {props.priceChange !== null ?(
+                            props.priceChange > 0 ?(
                             <p className="priceChange green">{props.priceChange.toFixed(2)}%</p>
                         ):(
                             <p className="priceChange red">{props.priceChange.toFixed(2)}%</p>
-                        )}
+                        )
+                        ):(
+                        props.priceChange == "null")}
                         <p className="volume">EUR {props.marketCap.toLocaleString()} </p>
                         <button
                         onClick={ () => {
