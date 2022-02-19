@@ -1,22 +1,30 @@
 # CryptoView
 
-# React App that fetch API for cryptocurrency data, visualize it or search for specific ones.
+## React App that fetch API for cryptocurrency data, visualize it or search for specific ones
 
-libraries used 
+To list all the packages and libraries used in this project, run the following command:
+
+```bash
+$ cd crypto-view && npm -g ls --depth==0
+```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Run the app
 
-In the project directory, you can run:
+In the project directory, run the following command to start the app in development mode:
 
-### `yarn start`
+* ```bash
+    $ yarn start
+  ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
-### `yarn build`
+To build the app, run the following command:
 
+```bash
+$ yarn build
+```
